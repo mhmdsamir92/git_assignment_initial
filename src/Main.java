@@ -9,6 +9,7 @@ public class Main {
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
+			System.out.println("fdf");
 		}
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
