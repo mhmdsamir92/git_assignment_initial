@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			new SimpleSubscriber(),
-			new ReallySimpleSubscriber(),
+			new LucasSeries(),
+			new SphereVolume(),
 	};
 	public static void main(String[] args) {
+		//System.out.println("HI");
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
