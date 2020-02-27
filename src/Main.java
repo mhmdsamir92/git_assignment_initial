@@ -1,9 +1,12 @@
+package SW2_git_assignment_CircleCircumference;
+
 import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+                        new CircleCircumference()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
