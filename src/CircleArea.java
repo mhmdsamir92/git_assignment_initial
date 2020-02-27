@@ -6,19 +6,15 @@ public class CircleArea implements ISubscriber {
 		double area1 = Math.PI * R * R ;
 		return area1 ;
 	}
-
+	
 	@Override
 	public void notifySubscriber(String input) {
 		double r = Double.parseDouble(input);
 		if (r>=0)
 		{
-			System.out.println("circle area is = " + area(r));
+			System.out.println("Circle area = " + area(r));
 		}
 		else 
-			System.out.println("error");
-			
-		
+			System.out.println("Error");	
 	}
-	
-
 }
