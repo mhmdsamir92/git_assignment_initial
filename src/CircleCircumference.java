@@ -26,7 +26,7 @@ public class CircleCircumference implements ISubscriber {
         radius=Double.valueOf(input); // convert input String to double.
         }catch (NumberFormatException e) {
             System.out.println(" invalid input ");
-            e.getMessage();
+            System.out.println("  "+ e.getMessage());
             return;
         }
         if (radius<0) {System.out.println(" Sorry,You enterd invalid radius. "); return; } //its invalid if the input radius < 0. 
