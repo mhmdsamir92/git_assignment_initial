@@ -12,6 +12,10 @@ public class Topic {
 	public void addSubscriber(ISubscriber sub) {
 		subscribers.add(sub);
 	}
+
+	public void removeSubscriber(ISubscriber sub){
+		subscribers.remove(sub);
+	}
 	
 	public List<ISubscriber> getSubscribers() {
 		return subscribers;
