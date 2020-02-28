@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
+			new SphereCircumference()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -10,7 +11,7 @@ public class Main {
 			mathTopic.addSubscriber(sub);
 		}
 		Scanner sc = new Scanner(System.in);
-		String input = sc.next();
+		int input = sc.nextInt();
 		mathTopic.dispatchEvent(input);
 	}
 }
