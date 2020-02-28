@@ -13,6 +13,7 @@ public class Main {
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
 		}
+		System.out.println("Please Enter your Input:");
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);
