@@ -1,10 +1,12 @@
 .metadata
 bin/
+out/
 tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
+*.idea
 local.properties
 .settings/
 .loadpath
