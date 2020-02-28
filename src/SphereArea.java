@@ -7,8 +7,12 @@ public class SphereArea implements ISubscriber{
 	}
 	@Override
 	public void notifySubscriber(String input) {
-		double r = Double.parseDouble(input);			
-		System.out.println("Sphere Area = " + sphereArea(r));
+		double r = Double.parseDouble(input);
+		System.out.print("Sphere Area: ");
+		if (r >= 0)
+			System.out.println(sphereArea(r));
+		else
+			System.out.println("The radius is negative!");
 	}
 
 }
