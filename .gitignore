@@ -6,7 +6,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
-*.idea
+.idea/
 local.properties
 .settings/
 .loadpath
