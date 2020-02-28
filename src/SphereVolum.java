@@ -1,5 +1,3 @@
-import java. lang. Math. *;
-
 public class SphereVolum implements ISubscriber {
 	
 	public double sphereVolum(double radius) {
