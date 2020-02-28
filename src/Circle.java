@@ -1,10 +1,10 @@
 public class Circle implements ISubscriber{
     public void notifySubscriber(String input){
-        Double radius = Double.parseDouble(input);
+        Integer radius = Integer.parseInt(input);
         System.out.println("The circle area is: " + calculateArea(radius));
     }
 
-    private double calculateArea(double radius){
+    private double calculateArea(Integer radius){
         return Math.PI * radius * radius;
     }
 }
