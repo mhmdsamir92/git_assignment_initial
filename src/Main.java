@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			new SimpleSubscriber(),
+			/*new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new SphereArea(),
 			new CircleArea(),
-			new SphereVolum(),
+			new SphereVolum(),*/
+			new TwoPowerNSubscriber()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
