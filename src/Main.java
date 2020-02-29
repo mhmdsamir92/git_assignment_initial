@@ -6,6 +6,7 @@ public class Main {
 			new ReallySimpleSubscriber(),
 			new LucasSeries(),
 			new CalculateArea()
+			ner Power(),	
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
