@@ -1,5 +1,3 @@
-package SW2_git_assignment_CircleCircumference;
-
 import java.util.ArrayList;
 import java.util.List;
 
