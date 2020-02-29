@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
-			new ReallySimpleSubscriber(),
+
+			new ReallySimpleSubscriber(),new SphereCircumference()
+	
 			new CircleArea(),
 			new SpherVoluum()
 	};
