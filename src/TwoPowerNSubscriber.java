@@ -1,5 +1,6 @@
 public class TwoPowerNSubscriber implements ISubscriber {
 
+
     int twoPowerN(int n) {
 
         int res = 1, value = 2;
