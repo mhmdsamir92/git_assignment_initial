@@ -25,11 +25,15 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+
+			new MultiplicationSeries(),
+		 	new SphereVolume()
             new MultiplicationSeries(),
             new CircleArea()
 
 			new MultiplicationSeries(),
 			new SphereArea()
+
 
 	};
 	public static void main(String[] args) {
