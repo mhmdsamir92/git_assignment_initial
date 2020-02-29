@@ -15,7 +15,7 @@ public class MultiplicationSeries implements ISubscriber {
 		}
 
 		System.out.println("Hello i'm a Multiplication Series subscriber and " + "i'm notified with " + input);
-		 System.out.println("The multiplication of The Series is till "+ x +" is: "+ multiply );
+		 System.out.println("The multiplication of The Series of "+ x +" is: "+ multiply );
 
 		
 
