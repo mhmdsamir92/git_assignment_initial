@@ -2,12 +2,14 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			/*new SimpleSubscriber(),
+			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new SphereArea(),
 			new CircleArea(),
-			new SphereVolum(),*/
-			new TwoPowerNSubscriber()
+			new SphereVolum(),
+			new TwoPowerNSubscriber(),
+			new SphereVolum(),
+			new CircleCircumference(),
 	};
 
 	public static void main(String[] args) {
