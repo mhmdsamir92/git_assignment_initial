@@ -4,11 +4,17 @@ public class LucasSeries implements ISubscriber{
 
     @Override
     public void notifySubscriber(String input) {
-        int n = Integer.parseInt(input);
-        for(int i=1;i<=n;i++)
-        {
-            System.out.println(printSeries(i));
+        try {
+            int n = Integer.parseInt(input);
+            for(int i=1;i<=n;i++)
+            {
+                System.out.println(printSeries(i));
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Enter a valid input");
         }
+
+
 
     }
     public int printSeries(int input)
