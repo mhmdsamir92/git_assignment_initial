@@ -32,6 +32,7 @@ public class Main {
             new CircleArea()
 
 			new MultiplicationSeries(),
+		        new CircleVolum()	
 			new SphereArea()
 
 
