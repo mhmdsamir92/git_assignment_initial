@@ -1,5 +1,3 @@
-package SW2_git_assignment_CircleCircumference;
-
 import java.util.Scanner;
 
 public class Main {
