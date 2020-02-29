@@ -5,7 +5,7 @@ public class SphereVolume implements ISubscriber {
 	
 
 	
-	public static void sphereVolume(int diameter) {
+	public static void sphereVolume(double diameter) {
 		/*calculating the volume of a sphere requires two constant inputs and a variable one.
 		
 		1- (variable)a radius (which can be calculated from the given diameter).
@@ -13,7 +13,7 @@ public class SphereVolume implements ISubscriber {
 		3- (constant)the value (4/3).
 		
 	    */
-		 int radius = diameter/2;
+		 double radius = diameter/2;
 		 double volume = value*(Math.PI)*Math.pow(radius, 3); //  value;
 		 System.out.println("The volume of a sphere with a given Diameter of " + diameter + "cm = " + volume + " cubic meters.");
 		 
@@ -22,7 +22,7 @@ public class SphereVolume implements ISubscriber {
 
 	@Override
 	public void notifySubscriber(String input) {
-		int value = Integer.parseInt(input);
+		double value = Double.parseDouble(input);
 		sphereVolume(value);
 		
 	}
