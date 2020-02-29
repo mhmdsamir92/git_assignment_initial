@@ -7,7 +7,13 @@ public class LucasSeries implements ISubscriber{
         int n = Integer.parseInt(input);
         for(int i=1;i<=n;i++)
         {
-            System.out.println(printSeries(i));
+            try {
+                System.out.println(printSeries(i));
+            }
+            catch (NumberFormatException e)
+            {
+                e.getMessage();
+            }
         }
 
     }
