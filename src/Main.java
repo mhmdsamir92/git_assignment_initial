@@ -5,6 +5,7 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new SphereVolumeSubscriber(),
+			new MultiplicationSeries(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
