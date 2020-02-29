@@ -9,6 +9,7 @@ public class Main {
 			new SphereVolum(),*/
 			new TwoPowerNSubscriber()
 	};
+
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
