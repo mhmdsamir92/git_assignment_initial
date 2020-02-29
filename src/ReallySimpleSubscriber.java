@@ -1,5 +1,3 @@
-package SW2_git_assignment_CircleCircumference;
-
 
 public class ReallySimpleSubscriber implements ISubscriber {
 	@Override
