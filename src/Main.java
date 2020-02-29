@@ -6,6 +6,7 @@ public class Main {
 			new ReallySimpleSubscriber(),
 			new MultiplicationSeries(),
 		        new CircleVolum()	
+			new SphereArea()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();

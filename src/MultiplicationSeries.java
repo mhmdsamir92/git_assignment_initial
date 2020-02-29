@@ -18,6 +18,6 @@ public class MultiplicationSeries implements ISubscriber {
     @Override
     public void notifySubscriber(String input) {
         System.out.print("Hello, I am a multiplication series and I am notified with " + input);
-        System.out.println("and my result is : " + MultSeries(Integer.parseInt(input)));
+        System.out.println(" and my result is : " + MultSeries(Integer.parseInt(input)));
     }
 }
