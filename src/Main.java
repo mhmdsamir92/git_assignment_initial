@@ -6,7 +6,8 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
-			new SphereVolume()
+			new SphereVolume(),
+			new MultiplicationSeries()
 
 	};
 	public static void main(String[] args) {
