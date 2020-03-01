@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class CircleCircumference implements ISubscriber {
     
      @Override
-	public void notifySubscriber(String input) {
+	public void notifySubscriber(int input) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello, I am CircleCircumference subscriber and I am notified with " + input);
                 display(input);
 	}
         
-    void display(String input){ // accept input and check if valid or not then call get_CircleCircumference and display the result.
+    void display(int input){ // accept input and check if valid or not then call get_CircleCircumference and display the result.
         double radius=0;
         try{ //check if the input can converted to double or not ..
-        radius=Double.valueOf(input); // convert input String to double.
+        radius=input; // convert input String to double.
         }catch (NumberFormatException e) {
             System.out.println(" invalid input ");
             System.out.println("  "+ e.getMessage());

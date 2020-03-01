@@ -5,9 +5,8 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new SphereCircumference(),
-			new Fibonacci(),
-      new SphereVolume(),
-      new CircleCircumference(),
+			new SphereVolume(),
+      		new CircleCircumference(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -16,6 +15,11 @@ public class Main {
 		}
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
-		mathTopic.dispatchEvent(input);
+		try{
+			int n = Integer.parseInt(input);
+			mathTopic.dispatchEvent(n);
+		}catch(NumberFormatException ignored) {
+			System.out.println("Your input is not a valid integer.");
+		}
 	}
 }
