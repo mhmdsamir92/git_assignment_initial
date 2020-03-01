@@ -7,9 +7,12 @@ public class Main {
 			new SphereArea(),
 			new CircleArea(),
 			new SphereVolum(),
+			new TwoPowerNSubscriber(),
+			new SphereVolum(),
 			new CircleCircumference(),
 			new Fibonacci(),
 	};
+
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
