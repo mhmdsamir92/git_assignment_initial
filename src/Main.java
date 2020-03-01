@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 	private static final ISubscriber subscribers [] = {
+
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
