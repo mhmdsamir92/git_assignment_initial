@@ -6,7 +6,10 @@ public class Main {
 			new Circle(),
 			new Shperevolume(),
 			new CircleCircumference(),
-			new CircleVolum()
+			new CircleVolum(),
+			new Lucas(),
+			new SphereArea(),
+			new SphereCircumference(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
