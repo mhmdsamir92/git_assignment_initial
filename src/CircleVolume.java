@@ -1,7 +1,8 @@
 public class CircleVolume implements ISubscriber{
 
     public double calcVolume(double radius){
-        double res = (4.0 / 3.0) * Math.PI * Math.pow(radius,3.0);
+        double res = 0.0;
+        res = (4.0 / 3.0) * Math.PI * Math.pow(radius,3.0);
         return res;
     }
     @Override
