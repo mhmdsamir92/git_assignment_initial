@@ -1,4 +1,3 @@
-package javaapplication1;
 
 
 import java.util.Scanner;
@@ -9,7 +8,8 @@ public class Main {
 			new ReallySimpleSubscriber(),
 			new CircleCircumference(),
 			new SphereVolume(),
-			new MultiplicationSeries()
+			new MultiplicationSeries(),
+                        new SummationSeries()
 
 	};
 	public static void main(String[] args) {
