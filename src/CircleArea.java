@@ -18,7 +18,7 @@ public class CircleArea implements ISubscriber {
             return;
         }
 
-        System.out.println("Radius is " + radius + ", Circle Area is: " + calculat(radius));
+        System.out.println("Radius is " + radius + ",  Area is: " + calculat(radius));
     }
 
     public double calculat(double input) {
