@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6b4848e-4ac0-430d-b82b-16a3ca64d557" name="Default Changelist" comment="" />
+    <list default="true" id="fd814747-0895-4d29-87d1-f350ffcfc71e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,24 +13,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1YXiqbLloLzgVIxNt22XezFvgag" />
+  <component name="ProjectId" id="1YXklfLjHkHG5qB7dPKVXiKx7Z9" />
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="git_assignment_initial6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6b4848e-4ac0-430d-b82b-16a3ca64d557" name="Default Changelist" comment="" />
-      <created>1583095531322</created>
+      <changelist id="fd814747-0895-4d29-87d1-f350ffcfc71e" name="Default Changelist" comment="" />
+      <created>1583096478615</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583095531322</updated>
+      <updated>1583096478615</updated>
     </task>
     <servers />
   </component>
