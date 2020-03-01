@@ -4,7 +4,7 @@ public class Main {
     private static ISubscriber subscribers [] = {
             new SimpleSubscriber(),
             new ReallySimpleSubscriber(),
-            new SphereCircumference(),
+            //new SphereCircumference(),
             new LucasSeries(),
             new SphereVolume()
     };
