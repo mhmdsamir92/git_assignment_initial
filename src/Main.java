@@ -2,11 +2,6 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			/*new SimpleSubscriber(),
-			new ReallySimpleSubscriber(),*/
-			new SphereCircumference(),
-			new SphereArea()
-			
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 	};
