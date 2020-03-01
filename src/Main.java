@@ -4,6 +4,8 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+			new AreaSphere(),
+		
 			new LucasSeries(),
 			new CalculateArea(),
 			new Fibonacci()
