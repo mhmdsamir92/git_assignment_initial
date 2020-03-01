@@ -4,7 +4,8 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
-			new CalculateArea()
+			new CalculateArea(),
+			new CalcBallVolume()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
