@@ -1,4 +1,3 @@
-package com.company ;
 public class Fibonacci implements ISubscriber {
 	@Override
 	public void notifySubscriber(int n) {
