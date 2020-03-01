@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -8,7 +9,8 @@ public class Main {
 		
 			new LucasSeries(),
 			new CalculateArea(),
-			new Fibonacci()
+			new Fibonacci(),
+      new CalcBallVolume()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
