@@ -11,6 +11,7 @@ public class Main {
 			new SphereVolum(),
 			new CircleCircumference(),
 			new Fibonacci(),
+			new CircleVolume(),
 	};
 
 	public static void main(String[] args) {
