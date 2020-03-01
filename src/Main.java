@@ -6,10 +6,8 @@ public class Main {
 		//	new SphereCircumference(),
 		//	new SphereArea(),
 		//	new Fibonacci(),
-		//	new Sphere_Volume(),
 		//	new SimpleSubscriber(),
 		//	new ReallySimpleSubscriber(),
-
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
