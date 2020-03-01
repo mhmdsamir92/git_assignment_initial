@@ -1,6 +1,7 @@
 public class Fibonacci implements ISubscriber {
 	@Override
-	public void notifySubscriber(int n) {
+	public void notifySubscriber(String s) {
+		int n = Integer.parseInt(s);
 		int pascTriangle[][]  =  new int [n][n] ;
 		pascTriangle[1][0] = 1;
 		pascTriangle[1][1] = 1;
