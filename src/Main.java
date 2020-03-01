@@ -7,6 +7,7 @@ public class Main {
 			new SphereCircumference(),
 			new Fibonacci(),
       new SphereVolume(),
+      new CircleCircumference(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
