@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e4a6d0-11e4-4ae2-8b16-e70eff11899e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CircleArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ISubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/ISubscriber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/MultiplicationSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/MultiplicationSeries.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ReallySimpleSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/ReallySimpleSubscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/SimpleSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/SimpleSubscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/Topic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiplicationSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiplicationSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fibonnachi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonnachi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +37,7 @@
   </component>
   <component name="ProjectId" id="1YRECD5A5XEqZ95MKyM51q17Bjq" />
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />

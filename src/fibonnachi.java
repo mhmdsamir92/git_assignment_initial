@@ -8,9 +8,9 @@ public class fibonnachi implements isubscriber{
     
 public void fibbseries(int N){  
     int x1=0,x2=1,x3,count=10;    
- System.out.print(x1+"- "x2);  
+ System.out.print(x1+"- "x2);
     
- for(int i=2;i<N;++i)   
+ for(int i=2;i<N;++i)
  {    
   x3=x1+x2;    
   System.out.print("- "+x3);    
