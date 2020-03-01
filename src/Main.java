@@ -5,7 +5,8 @@ public class Main {
     private static ISubscriber subscribers [] = {
             new SimpleSubscriber(),
             new ReallySimpleSubscriber(),
-            new MultiplicationSeries()
+            new MultiplicationSeries(),
+	    new LucasSeries()
     };
     public static void main(String[] args) {
         Topic mathTopic = new Topic();
