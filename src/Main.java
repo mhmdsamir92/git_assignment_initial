@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Main {
 	private static ISubscriber subscribers [] = {
 
-		//	new SphereCircumference(),
-		//	new SphereArea(),
-		//	new Fibonacci(),
-		//	new Sphere_Volume(),
+			new SphereCircumference(),
+			new SphereArea(),
+			new Fibonacci(),
+			new Sphere_Volume(),
+			new SummationSeries()
 		//	new SimpleSubscriber(),
 		//	new ReallySimpleSubscriber(),
 
