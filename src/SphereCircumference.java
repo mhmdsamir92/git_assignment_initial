@@ -1,5 +1,5 @@
 
-public class SphereCircumference extends ThreadSubscriber implements ObserverTest  {
+public class SphereCircumference implements ISubscriber  {
 	
 	 public void notifySubscriber(String input) {
 	        double R = Double.parseDouble(input);
