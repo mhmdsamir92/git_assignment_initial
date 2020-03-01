@@ -5,7 +5,8 @@ public class Main {
 
       while (true) {
           ThreadSubscriber subscribers[] = {
-                  new SphereCircumference()
+                  new SphereCircumference(),
+                  new twoPowerN()
           };
 
           Topic mathTopic = new Topic();
