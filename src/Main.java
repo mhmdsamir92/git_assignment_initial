@@ -13,7 +13,7 @@ public class Main {
 			mathTopic.addSubscriber(sub);
 		}
 		Scanner sc = new Scanner(System.in);
-		String input = sc.next() ;
+		String input = sc.next();
 		mathTopic.dispatchEvent(input);
 	}
 }
