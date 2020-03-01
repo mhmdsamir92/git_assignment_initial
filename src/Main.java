@@ -1,9 +1,15 @@
+
 import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+			new MultiplicationSeries(),
+		 	new SphereVolume(),
+            new CircleArea(),
+			new CircleVolum(),
+			new SphereArea()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -13,5 +19,6 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);
+
 	}
 }
