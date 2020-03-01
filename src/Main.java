@@ -5,8 +5,8 @@ public class Main {
 			new TwoPowerN(),
 			new Circle(),
 			new Shperevolume(),
-			new CircleCircumference()
-			new CircleVolum();
+			new CircleCircumference(),
+			new CircleVolum()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
