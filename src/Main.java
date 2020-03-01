@@ -1,4 +1,3 @@
-package com.company;
 import java.util.Scanner;
 
 public class Main {
@@ -6,7 +5,8 @@ public class Main {
             new SimpleSubscriber(),
             new ReallySimpleSubscriber(),
             new MultiplicationSeries(),
-	    new LucasSeries()
+            new LucasSeries(),
+            new SphereVolume()
     };
     public static void main(String[] args) {
         Topic mathTopic = new Topic();
