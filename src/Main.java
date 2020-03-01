@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-
-		//	new SphereCircumference(),
-		//	new SphereArea(),
-		//	new Fibonacci(),
-		//	new SimpleSubscriber(),
-		//	new ReallySimpleSubscriber(),
+			/*new SimpleSubscriber(),
+			new ReallySimpleSubscriber(),*/
+			new SphereCircumference(),
+			new SphereArea()
+			
+			new SimpleSubscriber(),
+			new ReallySimpleSubscriber(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
