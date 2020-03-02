@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+
   public static void main(String[] args) {
 
       while (true) {
@@ -8,7 +9,8 @@ public class Main {
                   new SphereCircumference(),
 		  new multiplicationSeries(),
 		  new BallVolume(),
-                  new twoPowerN()
+                  new twoPowerN(),
+             new Fibonacci()
           };
 
           Topic mathTopic = new Topic();
