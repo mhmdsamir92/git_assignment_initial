@@ -5,7 +5,8 @@ public class Main {
 			new SimpleSubscriber(),
 			new SphereCircumference(),
 			new FibonacciSeries(),
-			new LucasSeries()
+			new LucasSeries(),
+                        new Circlecumference()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
