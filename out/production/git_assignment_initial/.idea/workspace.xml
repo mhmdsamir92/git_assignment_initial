@@ -5,6 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git_assignment_initial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/git_assignment_initial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ISubscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/MultiplicationSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ReallySimpleSubscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/SimpleSubscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Topic.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CircleVolum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleVolum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISubscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -29,6 +35,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -36,6 +47,7 @@
   </component>
   <component name="ProjectId" id="1YaMwTtfoR07gFTwJaya52iaELt" />
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />

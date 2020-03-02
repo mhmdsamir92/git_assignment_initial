@@ -6,9 +6,7 @@ public class Main {
     private static ISubscriber subscribers[] = {
             new MultiplicationSeries(),
             new SphereVolume(),
-            new MultiplicationSeries(),
-            //new CircleArea(),
-            new MultiplicationSeries(),
+            new CircleArea(),
             new CircleVolum(),
             new SphereArea()
 

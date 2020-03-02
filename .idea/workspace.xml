@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af7a493d-b174-4191-aec4-d6dfcc7627e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CircleArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_assignment_initial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/git_assignment_initial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ISubscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/MultiplicationSeries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ReallySimpleSubscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/SimpleSubscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Topic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleVolum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleVolum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment_initial/src/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiplicationSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiplicationSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReallySimpleSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReallySimpleSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SphereArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SphereArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SphereVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SphereVolume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SummationSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummationSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibonnachi_series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonnachi_series.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twoPowerN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPowerN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twoPowerN.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +19,19 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -42,6 +39,7 @@
   </component>
   <component name="ProjectId" id="1YaMwTtfoR07gFTwJaya52iaELt" />
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
