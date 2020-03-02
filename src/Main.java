@@ -7,7 +7,8 @@ public class Main {
           ThreadSubscriber subscribers[] = {
                   new SphereCircumference(),
 		  new multiplicationSeries(),
-		  new BallVolume
+		  new BallVolume(),
+                  new twoPowerN()
           };
 
           Topic mathTopic = new Topic();
