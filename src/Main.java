@@ -7,6 +7,7 @@ public class Main {
 			new SphereCircumference(),
       			new SphereVolume(),
       			new CircleCircumference(),
+      			new SummationSeries(),
     new CircleArea(),
 	};
 	public static void main(String[] args) {
