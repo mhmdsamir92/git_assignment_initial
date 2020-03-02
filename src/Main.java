@@ -8,6 +8,7 @@ public class Main {
 		new LucasSeries(),
 		new sphereCircumferenceSubscriber(),
 		new MultSer(),
+		new CircleVolume(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
