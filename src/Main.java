@@ -6,6 +6,8 @@ public class Main {
       while (true) {
           ThreadSubscriber subscribers[] = {
                   new SphereCircumference(),
+		  new multiplicationSeries(),
+		  new BallVolume
           };
 
           Topic mathTopic = new Topic();
