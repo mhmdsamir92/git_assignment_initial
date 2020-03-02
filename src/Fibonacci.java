@@ -2,8 +2,9 @@
  public class Fibonacci implements ISubscriber {
 	@Override
 	public void notifySubscriber(String input) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello, I am really a simple subscriber and I am notified with " + input);
+		int in = Integer.parseInt(input) ;
+		int fib = calcFibonacci(in);
+		System.out.println("Fibonacci: " + fib);
 	}
   public int calcFibonacci(int n){
     int maxNumber = n; 
