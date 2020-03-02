@@ -10,6 +10,7 @@ public class Main {
 			new Lucas(),
 			new SphereArea(),
 			new SphereCircumference(),
+			new fibonacci()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
