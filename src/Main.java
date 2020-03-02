@@ -7,6 +7,7 @@ public class Main {
             new MultiplicationSeries(),
             new LucasSeries(),
             new SphereVolume(),
+            new BallVolume(),
 	    new twoPowerN()
     };
     public static void main(String[] args) {
