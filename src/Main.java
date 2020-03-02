@@ -12,6 +12,7 @@ public class Main {
             new BallVolume(),
 	        new twoPowerN(),
 	        new CircleCircumference()
+                new CircleArea()
             //please add your object here
     };
     public static void main(String[] args) {
