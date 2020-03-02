@@ -1,24 +1,17 @@
 
-public class CircleArea {
-	private float PI = (float) 3.14159265359;
-	private float reduis = 0;
+public class CircleArea implements ISubscriber{
 	
-	public CircleArea () {}
-	
-	public CircleArea (float reduis) {
-		this.reduis = reduis;
+	@Override
+	public void notifySubscriber(String input) {
+		double reduis=Double.parseDouble(input);
+		System.out.println("Area= "+area(reduis));
+		
 	}
 	
-	public float get_reduis() {
-		return this.reduis;
-	}
-	
-	public void set_reduis(float reduis) {
-		this.reduis = reduis;
-	}
 
-	public float area() {
-		return (float) PI * reduis *reduis;
+	public double area(double reduis) {
+		double setArea=Math.PI * reduis *reduis;
+		return setArea;
 	}
 }
 
