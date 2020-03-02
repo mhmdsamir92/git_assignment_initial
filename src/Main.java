@@ -7,7 +7,7 @@ public class Main {
 			new SummationSeries(),
 			new SphereCircumference(),
 			new SphereArea(),
-			//new CircleArea(),
+			new CircleArea(),
 			new fibonacci()
 	};
 	public static void main(String[] args) {
@@ -19,10 +19,11 @@ public class Main {
 		int choice;
 		String input;
 		while(true) {
-			System.out.print("1-SphereVolum 2-CircleVolum\n"
-					+ "3-SummationSeries 4-SphereCircumference\n"
-					+ "5-SphereArea 6-CircleArea\n"
-					+ "7-fibonacci 8-excute all\n"
+			System.out.print(
+					  "1-SphereVolum          2-CircleVolum\n"
+					+ "3-SummationSeries      4-SphereCircumference\n"
+					+ "5-SphereArea           6-CircleArea\n"
+					+ "7-fibonacci            8-excute all\n"
 					+ "9-exit\n"
 					+ "Choice: ");
 			choice=sc.nextInt();
