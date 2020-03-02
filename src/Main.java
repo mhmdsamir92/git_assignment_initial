@@ -7,7 +7,8 @@ public class Main {
 		new sphereAreaSubscriber(),
     	new CircleArea(),
 		new SummationSeries(),
-		new LucasSeries()
+		new LucasSeries(),
+		new Fibonacci()
 	};
 	public static void main(String[] args)
 	{
