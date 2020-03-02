@@ -9,6 +9,7 @@ public class Main {
 		new sphereCircumferenceSubscriber(),
 		new MultSer(),
 		new CircleVolume(),
+    new SphereVolume(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
