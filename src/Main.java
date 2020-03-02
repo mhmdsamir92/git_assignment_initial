@@ -11,6 +11,7 @@ public class Main {
       new SummationSeries(),
       new CircleArea(),
       new CircleVolume(),
+      new TwoPowerN(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
