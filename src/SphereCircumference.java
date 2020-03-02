@@ -17,7 +17,7 @@ public class SphereCircumference implements ISubscriber{
 			System.out.println("r must be >= 0");
 			return;
 		}
-		System.out.println("Area= "+getSphereCircumference(r));
+		System.out.println("SphereCircumference = "+getSphereCircumference(r));
 		
 	}
 
