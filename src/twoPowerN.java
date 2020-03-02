@@ -1,4 +1,7 @@
-public class twoPowerN implements ISubscriber{
+package src;
+
+
+public class twoPowerN implements ISubscriber {
 
     @Override
     public void notifySubscriber(String input) {

@@ -5,12 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git_assignment_initial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/git_assignment_initial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ISubscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/MultiplicationSeries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/ReallySimpleSubscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/SimpleSubscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/Topic.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CircleVolum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleVolum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISubscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />

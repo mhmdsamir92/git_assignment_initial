@@ -1,7 +1,5 @@
-
+package src;
 public class SphereArea implements ISubscriber{
-
-   
     public float SArea(float R){
         float result;
         result=4*(float)(22.0/7.0)*(R*R);

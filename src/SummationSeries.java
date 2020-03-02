@@ -1,8 +1,9 @@
+package src;
 /*
 Name: Omar Khaled Ali
 ID: 20170374
 */
-public class SummationSeries implements ISubscriber{
+public class SummationSeries implements ISubscriber {
     private int Sum (int num){
         int sum = 0;
         for(int i=1 ; i<=num ; i++){

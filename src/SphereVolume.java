@@ -1,5 +1,5 @@
-
-public class SphereVolume implements ISubscriber{
+package src;
+public class SphereVolume implements ISubscriber {
 
 	@Override
 	public void notifySubscriber(String input) {
