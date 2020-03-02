@@ -6,7 +6,8 @@ public class Main {
             new ReallySimpleSubscriber(),
             new MultiplicationSeries(),
             new LucasSeries(),
-            new SphereVolume()
+            new SphereVolume(),
+	    new twoPowerN()
     };
     public static void main(String[] args) {
         Topic mathTopic = new Topic();
