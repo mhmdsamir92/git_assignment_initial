@@ -5,6 +5,12 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new CircleVolume(),
+			new SphereCircumference(),
+      new SphereVolume(),
+      new CircleCircumference(),
+      new SummationSeries(),
+      new CircleArea(),
+      new CircleVolume(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
