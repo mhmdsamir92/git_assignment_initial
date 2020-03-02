@@ -9,7 +9,8 @@ public class Main {
             new SummationSeries(),
             //new SphereCircumference(),
             new LucasSeries(),
-            new SphereVolume()
+            new Spherearea(),
+            new SphereVolume(),
     };
     public static void main(String[] args) {
         Topic mathTopic = new Topic();
