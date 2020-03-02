@@ -6,7 +6,6 @@ public class twoPowerN extends ThreadSubscriber{
         System.out.println("two power n  = "+execute());
     }
 
-
     @Override
     public String execute() {
     	  int exponent = Integer.parseInt(input);
