@@ -1,5 +1,5 @@
 
-
+package com.company;
 public class LucasSeries implements ISubscriber{
 
     @Override
@@ -8,8 +8,9 @@ public class LucasSeries implements ISubscriber{
             int n = Integer.parseInt(input);
             for(int i=1;i<=n;i++)
             {
-                System.out.println(printSeries(i));
+                System.out.print(printSeries(i)+" ");
             }
+            System.out.println("");
         } catch (NumberFormatException e) {
             System.out.println("Enter a valid input");
         }
