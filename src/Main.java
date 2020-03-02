@@ -7,7 +7,7 @@ public class Main {
 		new SummationSeries(),
 		new LucasSeries(),
 		new sphereCircumferenceSubscriber(),
-    new MultSer(),
+		new MultSer(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
