@@ -2,29 +2,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Topic {
-	
-	private List<ISubscriber> subscribers;
-	
-	public Topic() {
-		subscribers = new ArrayList<ISubscriber>();
-	}
-	
-	public void addSubscriber(ISubscriber sub) {
-		subscribers.add(sub);
-	}
-	
-	public List<ISubscriber> getSubscribers() {
-		return subscribers;
-	}
-	
-	public void dispatchEvent(int input) {
-		for (ISubscriber sub : this.getSubscribers()) {
-			try {
-				sub.notifySubscriber(input);
-			}
-			catch(Exception ex){
-					System.out.println(ex.getMessage());
-			}
-		}
-	}
+
+    private List<ISubscriber> subscribers;
+
+    public Topic() {
+        subscribers = new ArrayList<ISubscriber>();
+    }
+
+    public void addSubscriber(ISubscriber sub) {
+        subscribers.add(sub);
+    }
+
+    public List<ISubscriber> getSubscribers() {
+        return subscribers;
+    }
+
+    public void dispatchEvent(int input) {
+        for (ISubscriber sub : this.getSubscribers()) {
+            try {
+                sub.notifySubscriber(input);
+            } catch (Exception ex) {
+                System.out.println(ex.getMessage());
+            }
+        }
+    }
 }
