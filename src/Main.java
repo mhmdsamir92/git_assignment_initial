@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
 public class Main {
-
     private static ISubscriber subscribers [] = {
             new SimpleSubscriber(),
             new ReallySimpleSubscriber(),
             new SummationSeries(),
-            //new SphereCircumference(),
+            new SphereCircumference(),
             new LucasSeries(),
             new Spherearea(),
             new SphereVolume(),
@@ -21,5 +20,6 @@ public class Main {
         String input = sc.next();
         mathTopic.dispatchEvent(input);
     }
+
 
 }
