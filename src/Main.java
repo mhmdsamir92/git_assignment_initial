@@ -7,7 +7,7 @@ public class Main {
 			new ReallySimpleSubscriber(),
 			new SphereVolume(),
 			new AreaSphere(),
-		
+			new Power(),
 			new LucasSeries(),
 			new CalculateArea(),
 			new Fibonacci(),
