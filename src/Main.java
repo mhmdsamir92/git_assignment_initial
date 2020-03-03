@@ -1,12 +1,20 @@
+
 import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+			new SphereVolume(),
+			new AreaSphere(),
+		
 			new LucasSeries(),
 			new CalculateArea()
 			new Power(),	
+
+			new Fibonacci(),
+			
+      new CalcBallVolume()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();

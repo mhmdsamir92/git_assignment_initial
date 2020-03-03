@@ -32,6 +32,7 @@ public class LucasSeries implements ISubscriber {
 	    {
 	      System.out.print(arr[i]+",");
 	    }
+	    System.out.println("\n");
 
 	    
 	}
