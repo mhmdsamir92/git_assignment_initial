@@ -57,3 +57,6 @@ local.properties
 
 # IDE folders
 .idea/
+
+#iml
+GitAssignmentObserver.iml
