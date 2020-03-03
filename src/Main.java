@@ -7,7 +7,8 @@ public class Main {
 			new FibonacciSeries(),
 			new LucasSeries(),
 			new TwoPowerN(),
-			new circle_area()
+			new MultiplicationSeries(),
+    	new circle_area()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
