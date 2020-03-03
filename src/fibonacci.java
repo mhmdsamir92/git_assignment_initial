@@ -16,7 +16,7 @@ public class fibonacci implements ISubscriber {
 	 public void notifySubscriber(String input) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("fibonacci of "+input+ " is " + calcFib(input));
+		System.out.println("fibonacci of "+input+ " = " + calcFib(input));
 		
 	}
 }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 	private static ISubscriber subscribers [] = {
 			new Sphere_Volume(),
-			//new CircleVolum(),
+			new circleV(),
 			new SummationSeries(),
 			new SphereCircumference(),
 			new SphereArea(),
