@@ -6,11 +6,11 @@ public class Main {
     	new CircleArea(),
 		new SummationSeries(),
 		new LucasSeries(),
-    new Fibonacci(),
+    	new Fibonacci(),
 		new sphereCircumferenceSubscriber(),
 		new MultSer(),
 		new CircleVolume(),
-    new SphereVolume(),
+    	new SphereVolume(),
   };
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
