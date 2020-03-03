@@ -1,36 +1,23 @@
-/*
- *  Description :- A class contain a method to calculate 2 POWER N
- Author      : ESRAA RAMADAN
- ID          : 20140324
- Group       : CS_1
- */
+/*@author Esraa Ramadan
+        */
 
-/**
- *
- * @author Esraa Ramadan
- */
 public class Power implements ISubscriber {
 
+
     public int Power( String input)
-      {    int base = 2;
-         
-          int result=1;
-    for (int i = 0; i < Integer.parseInt(input); i++) {
-        result *= base;
+    {    int base = 2;
+
+        int result=1;
+        for (int i = 0; i < Integer.parseInt(input); i++) {
+            result *= base;
+        }
+        return result;
     }
-    return result;
-}
-	
-	
-		// TODO Auto-generated constructor stub
+    public void notifySubscriber(String input) {
+        System.out.println(" 2 POWER YOUR NUMBER IS: " + Power(input));
 
-		@Override
-		public void notifySubscriber(String input) {
-                      System.out.println(" 2 POWER YOUR NUMBER IS: " + Power(input));
-                      
-			// TODO Auto-generated method stub
-			
-		}
+        // TODO Auto-generated method stub
+
+    }
 
 }
-
