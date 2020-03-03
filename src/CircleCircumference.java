@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class CircleCircumference extends DoubleSubscriber {
     
     @Override
@@ -15,6 +13,5 @@ public class CircleCircumference extends DoubleSubscriber {
     @Override
     public void printAnswer(double output) {
        System.out.println("Circle Circumference is: " + output);
-   }     
-
+   }   
 }

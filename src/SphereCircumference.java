@@ -1,4 +1,4 @@
-public class SphereCircumference extends DoubleSubscriber  {
+public class SphereCircumference extends DoubleSubscriber {
     @Override
     public void preProcess(int input) throws Exception {
         System.out.print("Hello, I'm SphereCircumference, and I'm notified with: " + input + " as radius. ");
