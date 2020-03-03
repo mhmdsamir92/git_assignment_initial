@@ -11,13 +11,13 @@ public class Fibonacci extends IntegerSubscriber{
 
 	@Override
 	public int doCalculation(int n) {
+		int pascTriangle[][]  =  new int [n][n] ;
+		pascTriangle[1][0] = 1;
+		pascTriangle[1][1] = 1;
 
 		if (n == 1 || n == 2) return 1 ;
-
-		int pascTriangle[][]  =  new int [n][n] ;
-
-		// drawing pascal's triangle as a base for Fibonnacii
-
+		else {
+			// drawing pascal's triangle as a base for Fibonnacii
 			for (int i = 2; i < n; i++) {
 				pascTriangle[i][0] = 1;
 				for (int j = 1; j <= i; j++) {
@@ -41,6 +41,7 @@ public class Fibonacci extends IntegerSubscriber{
 			return result ;
 
 		}
+	}
 
 	@Override
 	public void printAnswer(int out) {
