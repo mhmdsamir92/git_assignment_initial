@@ -26,6 +26,11 @@ public class Main {
 		}
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
-		mathTopic.dispatchEvent(input);
+		try{
+			int n = Integer.parseInt(input);
+			mathTopic.dispatchEvent(n);
+		}catch(NumberFormatException ignored) {
+			System.out.println("Your input is not a valid integer.");
+		}
 	}
 }
