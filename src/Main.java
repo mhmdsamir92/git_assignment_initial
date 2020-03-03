@@ -36,13 +36,48 @@ public class Main {
 			choice = sc.nextInt();
 			switch (choice) 
 			{
-			case 1:
+			case 1: 
+				System.out.print("Enter input: ");
+				input = sc.next();
+				SphereVolume sphereVolume = new SphereVolume();
+				sphereVolume.notifySubscriber(input);
+				break;
 			case 2:
+				System.out.print("Enter input: ");
+				input = sc.next();
+				CalcBallVolume calcBallVolume = new CalcBallVolume();
+				calcBallVolume.notifySubscriber(input);
+				break;
 			case 3:
+				System.out.print("Enter input: ");
+				input = sc.next();
+				LucasSeries lucasSeries = new LucasSeries();
+				lucasSeries.notifySubscriber(input);
+				break;
 			case 4:
+				System.out.print("Enter input: ");
+				input = sc.next();
+				AreaSphere areaSphere = new AreaSphere();
+				areaSphere.notifySubscriber(input);
+				break;
 			case 5:
+				System.out.print("Enter input: ");
+				input = sc.next();
+				CalculateArea calculateArea = new CalculateArea();
+				calculateArea.notifySubscriber(input);
+				break;
 			case 6:
+				System.out.print("Enter input: ");
+				input = sc.next();
+				Fibonacci fibonacci = new Fibonacci();
+				fibonacci.notifySubscriber(input);
+				break;
 			case 7:
+				System.out.print("Enter input: ");
+				input = sc.next();
+				power Power = new power();
+				Power.notifySubscriber(input);
+				break;
 				
 			case 8:
 				System.out.print("Enter input: ");
