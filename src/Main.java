@@ -1,9 +1,23 @@
+
 import java.util.Scanner;
 
 public class Main {
-	private static ISubscriber subscribers [] = {
+	private static final ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
+
 			new ReallySimpleSubscriber(),
+
+			new CircleCircumference(),
+			new SphereVolume(),
+            new SummationSeries(),
+            new MultiplicationSeries(),
+			new CircleArea()
+
+			
+			
+
+
+
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -15,3 +29,4 @@ public class Main {
 		mathTopic.dispatchEvent(input);
 	}
 }
+
