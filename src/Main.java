@@ -4,7 +4,19 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+
 			new Multiplicationseriess(),
+
+
+			new CircleVolume(),
+			new SphereCircumference(),
+      new SphereVolume(),
+      new CircleCircumference(),
+      new SummationSeries(),
+      new CircleArea(),
+      new CircleVolume(),
+      new TwoPowerN(),
+      new SphereArea(),
 
 	};
 	public static void main(String[] args) {
