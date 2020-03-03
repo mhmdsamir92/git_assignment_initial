@@ -11,14 +11,18 @@ public class Topic {
 	
 	public void addSubscriber(ISubscriber sub) {
 		subscribers.add(sub);
+		
+		
 	}
 	
 	public List<ISubscriber> getSubscribers() {
 		return subscribers;
 	}
 	
-	public void dispatchEvent(String input) {
-		for (ISubscriber sub : this.getSubscribers()) {
+	public void dispatchEvent(String input) 
+	{
+		for (ISubscriber sub : this.getSubscribers()) 
+		{
 			sub.notifySubscriber(input);
 		}
 	}
