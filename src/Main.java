@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class Main {
@@ -11,8 +9,10 @@ public class Main {
             new SphereVolume(),
             new BallVolume(),
 	        new twoPowerN(),
-	        new CircleCircumference()
-                new CircleArea()
+	        new CircleCircumference(),
+            new SphereArea(),
+       new CircleArea()
+
             //please add your object here
     };
     public static void main(String[] args) {
@@ -59,9 +59,11 @@ public class Main {
         {
             mathTopic.addSubscriber(subscribers[6]);
         }
-        else if(c==8)
-        {
+        else if(c==8) {
             mathTopic.addSubscriber(subscribers[7]);
+        }
+        else if (c==9){
+            mathTopic.addSubscriber(subscribers[8]);
         }
 
         //please call your method as the above calls here
