@@ -9,7 +9,9 @@ public class Main {
 			new AreaSphere(),
 		
 			new LucasSeries(),
-			new CalculateArea(),
+			new CalculateArea()
+			new Power(),	
+
 			new Fibonacci(),
 			
       new CalcBallVolume()
