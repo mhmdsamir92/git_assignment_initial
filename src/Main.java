@@ -4,6 +4,7 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
+			new MultiplicationSeries(),
 			new CircleVolume(),
 			new SphereCircumference(),
       new SphereVolume(),
