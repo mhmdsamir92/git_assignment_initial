@@ -1,7 +1,7 @@
 /*@author Esraa Ramadan
         */
 
-public class Power implements ISubscriber {
+public class power implements ISubscriber {
 
 
     public int Power( String input)

@@ -9,7 +9,8 @@ public class Main {
 			new LucasSeries(),
 			new CalculateArea(),
 			new Fibonacci(),	
-			new CalcBallVolume()
+			new CalcBallVolume(),
+			new power()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -29,8 +30,9 @@ public class Main {
 					  "4-SphereArea\n"+
 					  "5-CircleArea\n"+
 					  "6-fibonacci\n"+
-					  "7-execute all\n"+
-					  "8-terminate\n");
+					  "7-power\n"+
+					  "8-execute all\n"+
+					  "9-terminate\n");
 			choice = sc.nextInt();
 			switch (choice) 
 			{
@@ -41,13 +43,15 @@ public class Main {
 			case 5:
 			case 6:
 			case 7:
+				
+			case 8:
 				System.out.print("Enter input: ");
 				input = sc.next();
 				mathTopic.dispatchEvent(input);
 				break;
-			case 8:
+			case 9:
 				System.exit(0);
-				break;				
+				break;
 			default:
 				System.out.println("wrong choice");
 				break;
