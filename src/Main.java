@@ -2,8 +2,13 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			new SimpleSubscriber(),
-			new ReallySimpleSubscriber(),
+		  new MultiplicationSeries(),
+			new CircleAreaObserver(),
+			new Power(),
+			new SphereVolume(),
+			new CircleCircumference(),
+			new SphereAreaSub(),
+      new LucasSeriesSub()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
