@@ -1,16 +1,19 @@
 
-public class SphereArea implements ISubscriber{
+public class SphereArea extends ThreadSubscriber{
+
+	String input;
+	@Override
+	public void notifySubscriber() {
+		input = topic.getInput();
+		System.out.println("Sphere Area = " + execute());
+	}
 
 	@Override
-	public void notifySubscriber(String input) {
+	public String execute() {
 		double n = Integer.parseInt(input);
-		if(n < 0) {
-			System.out.println("error number is negative.");
-		}
-		
 		double pi = 3.14;
 		double sphereArea = 4 * pi * n * n;
-		System.out.println("Area of the Sphere = " + sphereArea);
+		return String.valueOf(sphereArea);
 	}
 	
 	
