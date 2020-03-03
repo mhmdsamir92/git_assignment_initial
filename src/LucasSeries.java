@@ -17,6 +17,6 @@ public class LucasSeries implements ISubscriber
     public void notifySubscriber(int input)
     {
         Arrays.fill(mem,0);
-        System.out.println("The result of Lucas Series is " + lucas_series(input));
+        System.out.println("The Result of Lucas Series is " + lucas_series(input));
     }
 }
