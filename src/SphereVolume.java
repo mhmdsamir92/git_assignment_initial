@@ -5,7 +5,7 @@ public class SphereVolume implements ISubscriber {
 	
 
 	
-	public static void sphereVolume(double radius) {
+	public static void sphereVolume(int radius) {
 		/*calculating the volume of a sphere requires two constant inputs and a variable one.
 		
 		1- (variable)a radius (which is given).
@@ -21,10 +21,8 @@ public class SphereVolume implements ISubscriber {
 	}
 
 	@Override
-	public void notifySubscriber(String input) {
-		double value = Double.parseDouble(input);
-		sphereVolume(value);
-		
+	public void notifySubscriber(int input) {
+		sphereVolume(input);
 	}
 
 

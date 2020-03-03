@@ -1,25 +1,16 @@
-public class SphereCircumference implements ISubscriber {
+public class SphereCircumference extends DoubleSubscriber  {
     @Override
-    public void notifySubscriber(String input) {
-        System.out.println("Hello, I am Sphere Circumference and I am notified with " + input);
-
-        int radius;
-        try {
-            radius = Integer.parseInt(input);
-            if (radius < 0) {
-                System.out.println("Radius is negative.");
-                return;
-            }
-
-        } catch (NumberFormatException ignored) {
-            System.out.println("Radius is not a number.");
-            return;
-        }
-
-        System.out.println("Radius is " + radius + ", Sphere Circumference is: " + doCalculation(radius));
+    public void preProcess(int input) throws Exception {
+        System.out.print("Hello, I'm SphereCircumference, and I'm notified with: " + input + " as radius. ");
+        if (input < 0) throw new Exception("Negative radius is invalid!");
     }
 
     public double doCalculation(int input) {
         return 2 * Math.PI * input;
+    }
+
+    @Override
+    public void printAnswer(double output) {
+        System.out.println("Sphere Circumference is: " + output);
     }
 }
