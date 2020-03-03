@@ -11,7 +11,7 @@ public class Main {
 			new LucasSeries(),
 			new CalculateArea(),
 			new Fibonacci(),
-			new Power(),
+			
       new CalcBallVolume()
 	};
 	public static void main(String[] args) {
