@@ -2,7 +2,7 @@ package company;
 public class Fibonacci extends IntegerSubscriber{
 
 	@Override
-	public void preprocess(int input) throws Exception {
+	public void preProcess(int input) throws Exception {
 
 		if(input < 1 ) throw new Exception("0 and Negative values are invalid ") ;
 
