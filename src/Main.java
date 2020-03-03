@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Enter 0 to execute all");
         System.out.println("1-SimpleSubscriber\n" +
                 "2-ReallySimpleSubscriber\n3-MultiplicationSeries\n4-LucasSeries\n" +
-                "5-SphereVolume\n6-BallVolume\n7-twoPowerN\n8-CircleCircumference");
+                "5-SphereVolume\n6-BallVolume\n7-twoPowerN\n8-CircleCircumference\n9-SphereArea\n10-CircleArea");
         Scanner choice = new Scanner(System.in);
         System.out.println("Enter your choice: ");
         int c = choice.nextInt();
@@ -64,6 +64,9 @@ public class Main {
         }
         else if (c==9){
             mathTopic.addSubscriber(subscribers[8]);
+        }
+	    else if (c==10){
+            mathTopic.addSubscriber(subscribers[9]);
         }
 
         //please call your method as the above calls here
