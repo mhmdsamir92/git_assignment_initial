@@ -8,7 +8,7 @@ public class circleV implements ISubscriber {
 
 	         double  volume= Math.PI*r*r;
 
-	     System.out.println("Volume is:" +volume);
+	     System.out.println("Circle Volume = " +volume);
 	
 	}
 }
