@@ -2,7 +2,7 @@ public class Multiplicationseriess implements ISubscriber {
     public int m(String n){
         int result = 1;
         int x = Integer.parseInt(n);
-        for(int i=0; i<=x; i++){
+        for(int i=1; i<=x; i++){
             result = result*i;
         }
         return result;
