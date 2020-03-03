@@ -10,6 +10,6 @@ public class Fibonacci implements ISubscriber {
     }
     @Override
     public void notifySubscriber(String input) {
-        System.out.print("The Fibonacci number is: " + fib(Integer.parseInt(input)));
+        System.out.println("The Fibonacci number is: " + fib(Integer.parseInt(input)));
     }
 }
