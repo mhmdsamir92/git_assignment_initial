@@ -1,6 +1,6 @@
 public class MultiplicationSeries implements IntegerSubscriber {
 
-    @Override
+    @Override 
     public void preProcess(int input) {
         System.out.println("Hello, I'm MultiplicationSeries, and I'm notified with: " + input + " as input. ");
         if (input < 0) throw new Exception("Negative input is invalid!");
