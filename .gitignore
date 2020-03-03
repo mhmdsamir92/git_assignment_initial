@@ -55,4 +55,9 @@ local.properties
 .scala_dependencies
 .worksheet
 *.xml
-*.xml
+
+# IDE folders
+.idea/
+
+#iml
+GitAssignmentObserver.iml
