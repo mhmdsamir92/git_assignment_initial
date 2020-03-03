@@ -1,20 +1,16 @@
-
-public class CircleArea implements ISubscriber {
+public class CircleArea extends DoubleSubscriber { 
+ @Override
+    public void preProcess(int input) throws Exception {
+        System.out.print("Hello, I'm CircleArea , and I'm notified with: " + input + " as radius. ");
+        if (input < 0) throw new Exception("Negative radius is invalid!"); }
+  
+	 @Override
+    public double doCalculation(int input) {
+       return  Math.PI * input *input;
+    }
 
     @Override
-    public void notifySubscriber(int input) {
-        System.out.println("Hello, I am Circle Area and I am notified with " + input);
-
-        int radius = input;
-        if (radius < 0) {
-            System.out.println("Radius is negative.");
-            return;
-        }
-
-        System.out.println("Radius is " + radius + ",  Area is: " + calculat(radius));
-    }
-
-    public double calculat(int input) {
-        return Math.PI * input * input;
-    }
+    public void printAnswer(double output) {
+       System.out.println("Circle Area is: " + output);
+   }   
 }
