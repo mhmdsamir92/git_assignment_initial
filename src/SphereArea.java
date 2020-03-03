@@ -8,7 +8,7 @@ public class SphereArea implements ISubscriber{
     
     @Override
     public void notifySubscriber(String input){
-        System.out.println("Hello, I am a Sphere Area and I am notified with " + input);
+        System.out.print("Hello, I am a Sphere Area and I am notified with " + input);
         System.out.println(" and my result is : " + SArea(Integer.parseInt(input)));
     }
 }
