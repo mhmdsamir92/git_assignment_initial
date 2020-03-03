@@ -1,12 +1,5 @@
-public class Multiplicationseriess implements IntegerSubscriber {
-    public int m(int n){
-        int result = 1;
-        int x = Integer.parseInt(n);
-        for(int i=1; i<=x; i++){
-            result = result*i;
-        }
-        return result;
-    }
+public class MultiplicationSeries implements IntegerSubscriber {
+
     @Override
     public void preProcess(int input) {
         System.out.println("Hello, I'm MultiplicationSeries, and I'm notified with: " + input + " as input. ");
@@ -14,7 +7,11 @@ public class Multiplicationseriess implements IntegerSubscriber {
     }
     @Override
     public int doCalculation(int input) {
-        return m(input);
+        int result = 1;
+        for(int i=1; i<=input; i++){
+            result = result*i;
+        }
+        return result;
     }
 }
     @Override
