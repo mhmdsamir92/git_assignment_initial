@@ -7,10 +7,11 @@ public class Main {
       while (true) {
           ThreadSubscriber subscribers[] = {
                   new SphereCircumference(),
-		  new multiplicationSeries(),
-		  new BallVolume(),
+                  new multiplicationSeries(),
+                  new BallVolume(),
                   new twoPowerN(),
-             new Fibonacci()
+                  new Fibonacci(),
+                  new SphereArea(),
           };
 
           Topic mathTopic = new Topic();
