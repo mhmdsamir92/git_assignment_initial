@@ -14,7 +14,7 @@ public class SummationSeries implements ISubscriber {
 
     @Override
     public void notifySubscriber(String input) {
-        System.out.print("Hello, I am Summation series and I am notified with: " + input);
+        System.out.print("\nHello, I am Summation series and I am notified with: " + input + "\n");
         System.out.println("result: " + Sum(Integer.parseInt(input)));
     }
 }
