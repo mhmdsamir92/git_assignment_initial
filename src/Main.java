@@ -20,5 +20,6 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);
+		sc.close();
 	}
 }
