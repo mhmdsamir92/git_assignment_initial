@@ -6,7 +6,7 @@ public class Main {
 			new SphereCircumference(),
 			new FibonacciSeries(),
 			new LucasSeries(),
-			new MultiplicationSeries
+			new MultiplicationSeries()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
