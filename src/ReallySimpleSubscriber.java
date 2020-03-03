@@ -1,3 +1,4 @@
+package src;
 
 public class ReallySimpleSubscriber implements ISubscriber {
 	@Override
