@@ -17,8 +17,7 @@ public class CircleCircumference implements ISubscriber {
             System.out.println(" invalid input ");
             System.out.println("  "+ e.getMessage());
             return;
-        }
-        if (radius<0) {System.out.println(" Sorry,You enterd invalid radius. "); return; } //its invalid if the input radius < 0. 
+        } 
         double circumference = get_CircleCircumference(radius);
         System.out.println(" Circumference of a Circle = " + circumference);
     }
