@@ -8,8 +8,8 @@ public class Main {
             new SphereVolume(),
             new CircleArea(),
             new CircleVolum(),
-            new SphereArea()
-
+            new SphereArea(),
+            new SummationSeries()
 
     };
 
@@ -19,6 +19,7 @@ public class Main {
             mathTopic.addSubscriber(sub);
         }
         Scanner sc = new Scanner(System.in);
+        System.out.println("enter number: ");
         String input = sc.next();
         mathTopic.dispatchEvent(input);
 
