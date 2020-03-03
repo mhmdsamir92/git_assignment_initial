@@ -12,6 +12,7 @@ public class Main {
                   new twoPowerN(),
                   new Fibonacci(),
                   new SphereArea(),
+		  new SummationSeries()
           };
 
           Topic mathTopic = new Topic();
