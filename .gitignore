@@ -54,3 +54,11 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+#ignored directories and files
+*/.idea/*
+.idea/*
+*/out/*
+out/*
+.classpath
+.project
