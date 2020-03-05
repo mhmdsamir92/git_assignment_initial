@@ -12,12 +12,16 @@ public class Topic {
 	public void addSubscriber(ISubscriber sub) {
 		subscribers.add(sub);
 	}
+
+	public void removeSubscriber(ISubscriber sub){
+		subscribers.remove(sub);
+	}
 	
 	public List<ISubscriber> getSubscribers() {
 		return subscribers;
 	}
 	
-	public void dispatchEvent(String input) {
+	public void dispatchEvent(int input) {
 		for (ISubscriber sub : this.getSubscribers()) {
 			sub.notifySubscriber(input);
 		}
