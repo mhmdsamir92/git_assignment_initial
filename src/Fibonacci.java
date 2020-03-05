@@ -1,4 +1,3 @@
-package company;
 public class Fibonacci extends IntegerSubscriber{
 
 	@Override
