@@ -9,6 +9,7 @@ public class Main {
 			new Power(),
 			new SphereVolume(),
 			new SphereAreaSub(),
+		        new summtionSeries(),
       new LucasSeriesSub()
 	};
 	public static void main(String[] args) {
