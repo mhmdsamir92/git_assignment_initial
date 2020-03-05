@@ -3,19 +3,18 @@ import java.util.Scanner;
 public class Main {
     private static ISubscriber subscribers [] = {
             new MultiplicationSeries(),
-			new SummationSeries(),
-			
-			new CircleCircumference(),
-			new CircleArea(),
+            new SummationSeries(),
+            
+            new CircleCircumference(),
+            new CircleArea(),
             new CircleVolume(),
-			
+            
             new SphereCircumference(),
-			new SphereArea(),
+            new SphereArea(),
             new SphereVolume(),
             
-			new Fibonacci(),
+            new Fibonacci(),
             new TwoPowerN(),
-            
     };
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
