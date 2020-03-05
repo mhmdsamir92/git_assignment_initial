@@ -4,7 +4,7 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new Fibonacci(),
 	};
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args){
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
