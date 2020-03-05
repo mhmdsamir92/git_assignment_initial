@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52e1f8ba-abb0-4659-9812-f4aecf6efa37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_assignment_initial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/git_assignment_initial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/git_assignment_initial.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/CircleVolum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/ISubscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/MultiplicationSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/ReallySimpleSubscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/SimpleSubscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/SphereArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/SphereVolume.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/SummationSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/fibonnachi_series.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/git_assignment_initial/src/twoPowerN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleVolum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleVolum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SphereArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SphereArea.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YczAludTyO4cErGKTOZeVqpm36" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Main" />
+      <module name="git_assignment_initial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52e1f8ba-abb0-4659-9812-f4aecf6efa37" name="Default Changelist" comment="" />
+      <created>1583256529949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583256529949</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
