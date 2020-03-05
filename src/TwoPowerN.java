@@ -8,6 +8,6 @@ public class TwoPowerN implements ISubscriber {
             res += res;
         }
 
-        System.out.println(res);
+        System.out.println("Two power N is " + res);
     }
 }
