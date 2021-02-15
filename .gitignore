@@ -54,3 +54,10 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+*.xml
+
+# IDE folders
+.idea/
+
+#iml
+GitAssignmentObserver.iml
